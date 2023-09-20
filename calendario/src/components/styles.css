@@ -1,0 +1,80 @@
+.indicador-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.indicador-base {
+    display: flex;
+    padding: 10px;
+}
+
+.indicador-base span{
+    display: flex;
+    font-size: 45px;
+    padding: 10px;
+    color: #e6c65d;
+}
+
+.indicador-actual{
+    display: flex;
+    padding: 10px;
+}
+
+.indicador-actual span {
+    font-size: 45px;
+    padding: 10px;
+    color: #e6c65d;
+}
+
+
+.boton {
+    background-color: #110674;
+    font-size: 50px;
+    color: #e6c65d; 
+    padding: 10px 20px;
+    border-radius: 30px; 
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: #0b0541;
+}
+
+
+.hora-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fecha-actual {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    color: rgb(123, 144, 151);
+}
+
+.fecha-nueva{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    flex-direction: column;
+    color: white;
+}
+.fecha-nueva h1{
+    background-color: #110674;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container-img{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.container-img img{
+    height: 200px;
+}
